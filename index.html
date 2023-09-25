@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les 25 jQuery</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="text/Javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#verberg").click(function () {
+                $("p").hide();
+            });
+            $("#toon").click(function () {
+                $("p").show();
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <script type="text/Javascript">
+        $(function () {
+            $("#accordion").accordion();
+        });
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div id="black hole">
+            <h1>Zwart gat korte samenvatting beschrijving</h1>
+            <img src="afbeeldingen/black_hole.0.jpg" title="foto black hole " alt="foto van een zwart gat">
+        </div>
+    </header>
+    <main>
+        <div class="mainpara">
+            <p>
+                A black hole is a place in space where gravity pulls so much that even light can not get out. The
+                gravity is so strong because matter has been squeezed into a tiny space. This can happen when a star is
+                dying.
+
+                Because no light can get out, people can't see black holes. They are invisible. Space telescopes with
+                special tools can help find black holes. The special tools can see how stars that are very close to
+                black holes act differently than other stars.
+            </p>
+        </div>
+        <button id="verberg">Verberg</button>
+        <button id="toon">Toon</button>
+        <p>Met de knoppen kunt u deze tekst tonen en verbergen.</p>
+        <noscript>
+            Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+        </noscript>
+        <div id="accordion">
+            <h3>Wat is de singulariteit van een zwarte gat?</h3>
+            <div>
+                <p>De singulariteit vormt het centrum van een zwart gat en wordt verborgen door het 'oppervlak' van het
+                    object, de
+                    waarnemingshorizon.
+                </p>
+            </div>
+            <h3>Oorsprong van zwarte gaten</h3>
+            <div>
+                <p>
+                    Alleen de zwaarste sterren, die van meer dan drie zonsmassa's, worden aan het einde van hun leven
+                    zwarte gaten. Sterren met een kleinere massa evolueren tot minder samengeperste lichamen, witte
+                    dwergen of neutronensterren.</p>
+            </div>
+            <h3>Waarnemen van de zwarte gaten</h3>
+            <div>
+                <p>
+                    Zwarte gaten kunnen meestal niet direct worden waargenomen vanwege zowel hun kleine omvang als het
+                    feit dat ze geen licht uitzenden. Ze kunnen echter worden "waargenomen" door de effecten van hun
+                    enorme zwaartekrachtvelden op nabijgelegen materie.
+                </p>
+            </div>
+            <h3>Bestaan er andere soorten zwarte gaten?</h3>
+            <div>
+                <p>
+                    Het bestaan van een ander soort niet-stellair zwart gat werd voorgesteld door de Britse astrofysicus
+                    Stephen Hawking. Volgens Hawkings theorie zijn er talloze kleine oerzwarte gaten, mogelijk met
+                    een massa gelijk aan of kleiner dan die van een asteroïde, Mogelijk is er tijdens de oerknal een
+                    toestand van extreem hoge temperaturen en dichtheid waarin het heelal 13,8 miljard jaar is ontstaan
+                    geleden. Deze zogenaamde mini-zwarte gaten, zoals de zwaardere variant, verliezen na verloop van tijd massa door
+                    Hawking straling en verdwijnen.
+                </p>
+            </div>
+        </div>
+        <noscript>
+            Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+        </noscript>
+    </main>
+    <footer>
+        <div id="copyright">
+<p>&copy;Britannica</p>
+            </div>
+    </footer>
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,65 @@
+body {
+    background-color: #667279;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px; 
+}
+header {
+    padding: 6px;
+}
+
+#black_hole {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+#black_hole img {
+    height: 250px;
+    width: 450px;
+}
+
+#black_hole h1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    color:white;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: 10px;
+}
+footer {
+    background-color: #5e79d1;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 5px 15px 0px 15px;
+    padding: 5px;
+}
+
+#copyright { 
+    position: relative;
+    font-size: 18px;
+    color: rgb(232, 171, 171);  
+    width: 100%;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+main {
+    display: block;
+    text-align: center;
+}
+
+.mainpara {
+    width: 100%;
+    height: auto;
+  
+}

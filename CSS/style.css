@@ -2,8 +2,9 @@ body {
     background-color: #608ea9;
     padding: 5px;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 3px; 
+    letter-spacing: 3px;
 }
+
 header {
     padding: 6px;
 }
@@ -18,39 +19,42 @@ header {
 }
 
 #black_hole img {
-    height: 250px;
-    width: 250px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 18px;
+    width: 150 px;
+    height: 130px;
 }
 
 #black_hole h1 {
     position: absolute;
     width: 100%;
     height: auto;
-    color:rgb(164, 122, 122);
+    color: rgb(164, 122, 122);
     font-weight: bold;
     font-size: 3em;
     letter-spacing: 7px;
 }
+
 footer {
     background-color: #5e79d1;
     height: 150px;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     margin: 5px 15px 0px 15px;
     padding: 5px;
 }
 
-#copyright { 
+#copyright {
     position: relative;
     font-size: 18px;
-    color: rgb(50, 25, 25);  
+    color: rgb(50, 25, 25);
     width: 100%;
     margin: 0px 10px;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 
@@ -62,5 +66,5 @@ main {
 .mainpara {
     width: 100%;
     height: auto;
-  
+
 }

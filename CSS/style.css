@@ -1,5 +1,5 @@
 body {
-    background-color: #667279;
+    background-color: #608ea9;
     padding: 5px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 3px; 
@@ -14,22 +14,22 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 10px 0px 10px;
+    margin: 10px 10px 0px 10px;
 }
 
 #black_hole img {
     height: 250px;
-    width: 450px;
+    width: 250px;
 }
 
 #black_hole h1 {
     position: absolute;
     width: 100%;
     height: auto;
-    color:white;
+    color:rgb(164, 122, 122);
     font-weight: bold;
     font-size: 3em;
-    letter-spacing: 10px;
+    letter-spacing: 7px;
 }
 footer {
     background-color: #5e79d1;
@@ -44,7 +44,7 @@ footer {
 #copyright { 
     position: relative;
     font-size: 18px;
-    color: rgb(232, 171, 171);  
+    color: rgb(50, 25, 25);  
     width: 100%;
     margin: 0px 10px;
     display: flex;

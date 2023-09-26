@@ -20,6 +20,7 @@ header {
 #black_hole img {
     height: 250px;
     width: 250px;
+    margin: 10px;
 }
 
 #black_hole h1 {
